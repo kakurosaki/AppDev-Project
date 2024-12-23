@@ -1,0 +1,322 @@
+
+
+.top-par {
+  font-family: 'Inria Serif';
+  font-size: 32px;
+  font-weight: bold;
+  margin: 45px 0px;
+}
+
+.bot-par {
+  font-family: 'Instrument Serif';
+  font-size: 40px;
+  margin: 40px 0px;
+}
+
+.under-p {
+  font-family: 'Inter';
+  font-size: 20px;
+  margin: 10px 0px 50px 0px;
+}
+
+.footer {
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+.left-box, .right-box {
+  background-image: url('../pics/contact box.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  color: #fff; 
+  padding: 20px;
+}
+
+.left-box {
+  margin-right: 20px; 
+}
+
+
+.p-head1 {
+  font-family: 'Instrument Serif';
+  font-size: 40px;
+  margin: 20px 0px 15px 0px;
+}
+
+.p-body1 {
+  font-family: 'Inter';
+  font-size: 20px;
+  margin: 35px 0px;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Inria Serif', serif;
+  font-size: 24px;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+}
+
+.navbar .nav-link:hover {
+  color: #2E1F1E;
+}
+
+
+.socials img {
+  margin-right: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+
+.search-bar img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.search-bar input {
+  width: 150px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid #000;
+}
+
+.search-bar input:hover {
+  border-bottom-color: #0056b3;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-bottom-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+
+.feature-section {
+  position: relative;
+  background-image: url('../pics/feature-bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  z-index: 1;
+}
+
+.feature-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.feature-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #2E1F1E;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #444;
+}
+
+.col-md-4 {
+  margin-bottom: 30px;
+}
+
+
+footer {
+  background-color: #2E1F1E;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-content p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #D4C89A;
+}
+
+.footer-content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+footer form button {
+  background-color: #D4C89A;
+  color: #2E1F1E;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer form button:hover {
+  background-color: #B8A87B;
+}
+
+.start-btn {
+  background-color: #2E1F1E;
+  color: #D4C89A;
+  margin-bottom: 150px;
+  font-size: 20px;
+  height: 40px;
+  letter-spacing: 5%;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #444;
+}
+
+.start-btn:focus {
+  outline: none;
+}
+
+
+@media (max-width: 768px) {
+  .socials img {
+    margin-right: 5px;
+  }
+
+  .company-name {
+    font-size: 40px;
+  }
+
+  .art-gallery {
+    font-size: 14px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .start-btn {
+    font-size: 18px;
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-section h1 {
+    font-size: 28px;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 20px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .start-btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}

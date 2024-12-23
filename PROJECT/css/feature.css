@@ -11,11 +11,10 @@ footer {
 }
 
 
-eatsteste
 .card-feat-img {
   width: 120px;
   height: 120px;
-  object-fit: cover; /* Adjusts the image to cover the dimensions without distortion */
+  object-fit: cover; 
 }
 .navbar {
   flex-wrap: wrap;
@@ -164,7 +163,7 @@ letter-spacing: 5%;
   height: 1px;
   background-color: #000;
 }
-
+ 
 .logo-block p.art-gallery::before {
   left: -160px;
 }
@@ -173,6 +172,53 @@ letter-spacing: 5%;
   right: -160px;
 }
 
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #2E1F1E;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #444;
+}
+
+.start-btn {
+  background-color: #2E1F1E;
+  color: #D4C89A;
+  margin-bottom: 150px;
+  font-size: 20px;
+  height: 40px;
+  letter-spacing: 5%;
+}
+
+.start-btn:hover {
+  background-color: #444;
+}
 
 @media (max-width: 1440px) {
   .logo-block .fs-1 {
