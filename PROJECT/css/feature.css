@@ -10,6 +10,31 @@ footer {
   color: #fff; 
 }
 
+.content-top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../pics/contact box.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  color: #fff; 
+  padding: 20px;
+}
+
+.card-body{
+  padding: 0;
+}
+
+.card {
+  background-color: transparent;
+  margin: 30px 10px 30px 10px;
+}
+
+.card-title, .card-text{
+  color: #fff;
+  text-align: left;
+  font-family: 'Inter Serif';
+  font-size: 12;
+  margin-bottom: 0;
+}
 
 .card-feat-img {
   width: 120px;
