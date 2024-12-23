@@ -1,0 +1,59 @@
+.content-top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../pics/contact box.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  color: #fff; 
+  padding: 20px;
+}
+.art-price{
+  color: #CEA663;
+  font-size: 15px;
+  margin: 5px 0px 5px 0px;
+}
+.card {
+    background-color: transparent;
+    margin: 30px 10px 30px 10px;
+}
+
+
+
+.card-body{
+  padding: 0;
+}
+
+.card-title, .card-text{
+  color: #fff;
+  text-align: left;
+  font-family: 'Inter Serif';
+  font-size: 12;
+  margin-bottom: 0;
+}
+
+.sale-title{
+  font-family: 'Inria Serif';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.featured-title{
+  font-family: 'Instrument Serif';
+  font-size: 24px;
+}
+
+.card-title1, .card-text1{
+  color: black ;
+  text-align: left;
+  font-family: 'Inter Serif';
+  font-size: 12;
+  margin-bottom: 0;
+}
+
+.content-middle{
+  margin-top: 50px;
+  width: 80%;
+  text-align: right;
+  margin-left: auto; 
+  margin-right: auto;
+}
+

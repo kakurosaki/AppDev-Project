@@ -25,6 +25,7 @@
 }
 
 .left-box, .right-box {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../pics/contact box.png'); 
   background-image: url('../pics/contact box.png'); 
   background-size: cover; 
   background-repeat: no-repeat; 
