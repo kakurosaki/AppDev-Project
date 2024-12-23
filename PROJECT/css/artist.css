@@ -55,3 +55,19 @@
   margin-right: auto;
 }
 
+.par1{
+  font-family: 'Instrument Serif';
+  font-size: 22px;
+}
+
+.par2{
+  font-family: 'Inter';
+  font-size: 11px;
+  color: gray;
+}
+.par3{
+  margin: 100px 0px 100px 0px;
+  font-family: 'Inter';
+  font-size: 12px;
+  color: gray;
+}
